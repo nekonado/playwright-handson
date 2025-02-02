@@ -13,6 +13,9 @@ export default function RootLayout({
           <li>
             <a href="/form">入力フォーム</a>
           </li>
+          <li>
+            <a href="/retry-test">リトライのテスト</a>
+          </li>
         </ul>
         {children}
       </body>

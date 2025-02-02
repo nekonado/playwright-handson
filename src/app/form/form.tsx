@@ -11,7 +11,7 @@ export function ShuffleMemberForm() {
 
   const callApi = useCallback(async () => {
     const members = [] as string[];
-    const refs = [firstRef, secondRef, thirdRef];
+    const refs = [firstRef, firstRef, firstRef];
     for (const ref of refs) {
       if (ref.current?.value) {
         members.push(ref.current?.value);
