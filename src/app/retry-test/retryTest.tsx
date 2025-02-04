@@ -16,7 +16,7 @@ export function RetryTest() {
     const json = await res.json();
 
     // flaky network test
-    await delay(Math.random() * 10000);
+    await delay(Math.random() * 75000);
 
     setTitle(json.title);
     setCount((prev) => prev + 1);
